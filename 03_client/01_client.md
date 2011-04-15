@@ -9,7 +9,7 @@ Installing RVM if it isn't installed yet:
 Configure RVM to use RVM::FW's Rubies:
 
     @@@sh
-    $ wget http://<your-server>:<port>/db -O ~/.rvm/config/user
+    $ wget http://<your-server>:<port>/db -O ~/.rvm/user/db
     $ rvm reload
 
 Once you have done this RVM will automatically install Rubies from RVM::FW when they are provided!
